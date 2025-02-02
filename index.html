@@ -59,10 +59,11 @@
         },
       };
     </script>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <!-- Header section -->
-    <header>
+    <header >
       <!-- navbar -->
       <nav class="bg-[#FFF9F4]">
         <div class="flex justify-between items-center lg:p-[38px_0] p-[12px_16px] mx-auto max-w-7xl ">
@@ -91,9 +92,9 @@
       </nav>
 
       <!-- Banner section -->
-      <div class="max-w-7xl mx-auto mt-8 lg:mt-[100px]">
+      <div class="max-w-7xl mx-auto mt-8 lg:mt-[100px] ">
         <div
-          class="lg:m-0 m-5 bg-[url('./c1-assets/cat-big.png')] lg:h-[650px] h-[380px] bg-right-bottom lg:bg-cover bg-contain bg-no-repeat"
+          class="lg:m-0 m-5 bg-[url('./c1-assets/cat-big.png')] lg:h-[650px] h-[380px] bg-right-bottom lg:bg-cover bg-contain bg-no-repeat relative"
         >
           <h1
             class="adlam-display lg:mt-6 lg:w-[45%] w-[95%] lg:text-5xl text-3xl"
@@ -111,6 +112,9 @@
           >
             Find a pet
           </button>
+
+          <div class="arrow "></div>
+
         </div>
       </div>
     </header>
@@ -227,8 +231,28 @@
         </div>
       </section>
 
+      <!-- challenge part -->
+       <section class="mx-auto max-w-7xl  flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center lg:gap-[100px] lg:mt-[120px] mt-[55px]">
+        <div class="lg:m-0 m-5">
+          <h1 class="lg:text-4xl text-2xl lg:mb-[50px] mb-6 adlam-display">Adoption</h1>
+
+          <h2 class="lg:text-2xl text-xl sora font-medium text-blue-500 mb-5">Aliquam</h2>
+
+          <p class="lg:text-xl text-[#695E72] sora mb-4 ">Elementum etiam auctor purus accumsan, elit. Adipiscing quisque a nisl, imperdiet. Ligula scelerisque sollicitudin turpis.</p>
+
+          <h2 class="lg:text-2xl text-xl sora font-medium text-blue-500 mb-5">Ipsum Fringilla</h2>
+          <p class="lg:text-xl text-[#695E72] sora mb-4 ">Integer mattis bibendum in mattis pulvinar viverra augue. Aliquam molestie neque, senectus vel, bibendum vitae.</p>
+
+          <h2 class="lg:text-2xl text-xl sora font-medium text-blue-500 mb-5">Ultricies</h2>
+          <p class="lg:text-xl text-[#695E72] sora mb-4 ">Lobortis ac tellus dictum gravida aliquam. Dignissim mattis eget elementum pharetra, tristique. Quam erat feugiat.</p>
+        </div>
+        <div class="lg:m-0 m-5 ">
+          <img class="lg:w-[100%] w-[80%] mx-auto" src="./c1-assets/ricky-0557395712.webp" alt="">
+        </div>
+       </section>
+
       <!-- Trending Pet Products section -->
-      <section class="lg:bg-[#FFF9F4] lg:mt-[126px] mt-[55px] lg:pb-[140px] pb-4">
+      <section class="lg:bg-[#FFF9F4] lg:mt-[126px] mt-[35px] lg:pb-[140px] pb-4">
         <h1
           class="adlam-display lg:pt-[140px] hidden lg:block lg:mb-12 mb-6 lg:ml-[120px] ml-5 lg:text-4xl text-2xl pt-5"
         >
